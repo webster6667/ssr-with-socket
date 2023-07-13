@@ -1,0 +1,25 @@
+.card-1 {
+  box-shadow: 0 0 10px 5px rgb(221 221 221);
+  background: white;
+
+  &__avatar-wrapper {
+    padding: 100px 0;
+    background: #e1e5ef;
+  }
+
+  &__avatar-placeholder {
+    display: block;
+
+    width: 50px;
+    margin: 0 auto;
+  }
+  
+  &__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 36px;
+  }
+  
+}

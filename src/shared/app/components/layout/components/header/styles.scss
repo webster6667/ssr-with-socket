@@ -1,0 +1,12 @@
+.header {
+  position: relative;
+  z-index: 9;
+  padding: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 10px 20px #0000001a;
+
+  &__icon {
+    width: 40px;
+  }
+
+}

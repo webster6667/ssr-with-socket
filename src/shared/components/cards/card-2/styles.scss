@@ -1,0 +1,35 @@
+.card-2 {
+  display: flex;
+  align-items: center;
+  height: 60px;
+
+  background: white;
+  border-bottom: 1px solid silver;
+
+  &_hidden {
+    display: none;
+  }
+
+  &__avatar {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    background: silver;
+  }
+  
+  &__content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+    flex-grow: 1;
+    padding-left: 10px;
+
+    p {
+      font-size: 12px;
+      color: silver;
+    }
+
+  }
+  
+}

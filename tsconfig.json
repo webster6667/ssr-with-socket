@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "paths": {
+      "@modules/*": ["src/shared/modules/*"],
+      "@app": ["src/shared/app"],
+      "@pages": ["src/shared/pages"],
+
+      "@store": ["src/shared/store"],
+      "@reducers": ["src/shared/store/reducers"],
+      "@actions": ["src/shared/store/actions"],
+
+      "@hooks": ["src/shared/hooks"],
+      "@shared-types": ["src/shared/types"],
+      "@routes": ["src/shared/routes.ts"],
+
+      "@icons/*": ["src/shared/assets/img/icon/*"],
+
+      "@components/*": ["src/shared/components/*"],
+      "@grid": ["src/shared/components/grid"],
+      "@ui": ["src/shared/components/ui"]
+    }
+  },
+  "include": [
+    "src/**/*",
+    "custom.d.ts"
+  ],
+  "exclude": ["node_modules", "build"]
+}

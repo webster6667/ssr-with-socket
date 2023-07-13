@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+
+
+
+  &_justify-content {
+
+    &-space-between {
+     justify-content: space-between;
+    }
+
+  }
+
+  &_align-items {
+
+    &-center {
+      align-items: center;
+    }
+
+  }
+
+}

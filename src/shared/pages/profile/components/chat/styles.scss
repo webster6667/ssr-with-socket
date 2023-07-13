@@ -1,0 +1,33 @@
+.chat {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+
+  margin-top: 15px;
+
+  &__sidebar {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    padding-right: 15px;
+  }
+
+  &__content {
+    flex-grow: 1;
+  }
+
+  &__form {
+    display: flex;
+    column-gap: 10px;
+    width: 100%;
+    margin-top: 15px;
+
+    input {
+      flex-grow: 1;
+    }
+
+  }
+
+
+}
